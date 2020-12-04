@@ -4,7 +4,7 @@ A useful collection of scripts to make life easier
 
 
 
-
+_Contents of add_user.sh_
 ```bash
 #!/bin/bash
 # Purpose - Script to add a passwordless user to Linux system using SSH keys
