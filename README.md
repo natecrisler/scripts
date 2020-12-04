@@ -7,10 +7,7 @@ A useful collection of scripts to make life easier
 
 ```bash
 #!/bin/bash
-# Purpose - Script to add a passwordless user to Linux system using SSH keys
-# Author - Nate Crisler <nathan.crisler@gmail.com> under GPL v2.0+
-# ------------------------------------------------------------------
-# Am i Root user?
+
 if [ $(id -u) -eq 0 ]; then
         read -p "Enter username : " username
         read -p "Enter Publickey : " pub_key
