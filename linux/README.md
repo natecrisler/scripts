@@ -1,8 +1,11 @@
-What the project does
-
+## What the project does
 A useful collection of scripts to make life easier
-Why the project is useful
+## Why the project is useful
 
+
+
+
+```bash
 #!/bin/bash
 # Purpose - Script to add a passwordless user to Linux system using SSH keys
 # Author - Nate Crisler <nathan.crisler@gmail.com> under GPL v2.0+
@@ -28,5 +31,6 @@ else
         echo "Must be ROOT to add user"
         exit 2
 fi
+```
 
-NOTE: wheel is being added as the secondary group. see referanced line usermod -a -G wheel $username
+**NOTE**: _wheel_ is being added as the secondary group. see referanced line `usermod -a -G wheel $username`
